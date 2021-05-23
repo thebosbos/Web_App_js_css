@@ -6,7 +6,7 @@
 .header{
 	min-height: 100vh;
 	width: 100%;
-	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(skate.jpg);
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/skate.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -32,7 +32,7 @@ nav img{
 	list-style: none;
 	display: inline-block;
 	padding: 8px 12px;
-	position: fixed;
+	position: relative;
 }
 .nav-links ul li a{
    color: #f44336;
@@ -129,7 +129,7 @@ nav .fas{
    	padding: 30px;
    }
    .btn{
-	 width: 300px;
+	 width: 400px;
 	 display: inline-block;
      text-decoration:none;
      color: #fff;
@@ -285,7 +285,7 @@ h3{
 }
 @media(max-width: 700px){
 	.skatepark-col img{
-		width: 300px;
+		width: 150px;
 	}
 }
 /*--------testimonials-------*/
