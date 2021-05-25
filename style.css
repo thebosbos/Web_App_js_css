@@ -24,7 +24,6 @@ nav img{
 .nav-links{
 	z-index: 1;
 	left: 70%;
-	position: fixed;
 	flex: 1;
 	text-align: right;
 }
