@@ -1,37 +1,60 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<link rel="shortcut icon" type="image" href="icone.png">
-	<meta charset="utf-8">
-	<meta name="viewport" content="with=device-width, initial-scale=1.0">
-	<title>Skate Shop</title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,500&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
-<script src="https://kit.fontawesome.com/b64577fe18.js" crossorigin="anonymous"></script>
-</head>
-<body>
-	<section class="header" id="home">
-		<nav >
-			<a href="index.html"><img src="taswira.png"></a>
-			<div class="nav-links">
-				<ul> 
-					<li><a href="#home">home</a></li>
-				    <li><a href="#about">about</a></li>
-				    <li><a href="#course">course</a></li>
-				    <li><a href="#skatepark">skatepark</a></li>
-				    <li><a href="#cantact">contact</a></li>
-				</ul>
-			</div>
-		</nav>
-   <div class="text-box">
+<html lang="en">
+  <head>
+  	<link rel="shortcut icon" type="image" href="image/icone.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkateShop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="menu">
+          <h3 class="logo">Skate<span>Shop</span></h3>
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </div>
+        
+      <div class="main-container">
+        <div class="main">
+         <header> 	
+            <div class="overlay">
+
+              <div class="inner">
+                <div class="text-box">
    	<h1>world's Biggest SkateShop</h1>
    	<p>A skateboard is a type of sports equipment used for skateboarding.<br> They are usually made of a specially designed 7-8 ply maple plywood deck with a polyurethane coating for smoothness<br> and durability and wheels attached to the underside by a pair of skateboarding trucks.</p>
    	<a href="" class="btn">Visit us to know more</a>
-   </div>
-	</section>
-<!------course------->
+              </div>
+
+            </div>
+          </header>
+        </div>
+      </div>
+      <div class="links">
+        <ul>
+          <li>
+            <a href="#Home" style="--i: 0.05s;">Home</a>
+          </li>
+          <li>
+            <a href="#about" style="--i: 0.1s;">about</a>
+          </li>
+          <li>
+            <a href="#course" style="--i: 0.15s;">course</a>
+          </li>
+          <li>
+            <a href="#skatepark" style="--i: 0.2s;">skateparck</a>
+          </li>
+          <li>
+            <a href="#contact" style="--i: 0.25s;">contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!------course------->
       <div class="video">
        <iframe width="560" height="315" src="https://www.youtube.com/embed/eE_j5TAhxeg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
@@ -62,19 +85,19 @@
 
 	<div class="row">
 		<div class="brand-col">
-			<img src="skate1.jpg">
+			<img src="image/skate1.jpg">
 			<div class="layer">
 				<h3>ALMOST</h3>
 			</div>
 		</div>
 		<div class="brand-col">
-			<img src="skate2.jpg" >
+			<img src="image/skate2.jpg" >
 			<div class="layer">
 				<h3>Santa Cruz</h3>
 			</div>
 		</div>
 		<div class="brand-col">
-			<img src="skate3.jpg">
+			<img src="image/skate3.jpg">
 			<div class="layer">
 				<h3>Ripndip</h3>
 			</div>
@@ -87,13 +110,11 @@
 <section class="skatepark" id="skatepark">
 	<h1>our skatepark</h1>
 	<p>learn how to skate with us </p>
-	<div >
 		<div class="skatepark-col">
-			<center><img src="skateparck1.jpg"></center>
+			<center><img src="image/skateparck1.jpg"></center>
 			<h3>world most biggest Skateparck</h3>
 			<p>learn how to skate board with us </p>
 		</div>
-	</div>
 </section>
 <!------- testimonials----->
 <section class="testimonials" id="about">
@@ -131,7 +152,7 @@
 
 <!------- footer ------>
 
-<section class="footer" id="cantact">
+<section class="footer" id="contact">
 	<h4>about us</h4>
 	<p>Email: skatecompanies@gmail.com</p>
 	<div class="icons">
@@ -141,5 +162,7 @@
 	</div>
 	<p>Made with <i class="far fa-heart"></i> by mohamed boussaada</p>
 </section>
-</body>
+     
+    <script src="app.js"></script>
+  </body>
 </html>
